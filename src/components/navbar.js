@@ -10,11 +10,8 @@ export default function Navbar() {
   };
 
   const navLinks = [
-    { title: "제니쌤 소개" },
-    { title: "프로그램 설명" },
-    { title: "수강후기" },
-    { title: "수강신청" },
-    { title: "FAQ" }
+    { title: "" },
+
   ];
 
   const sidebarVariants = {
