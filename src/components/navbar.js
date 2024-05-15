@@ -32,8 +32,7 @@ export default function Navbar() {
           ))}
         </div>
         <div className='mr-4 flex items-center justify-center space-x-3'>
-            <button> 장바구니 </button>
-            <button> 로그인 / 회원가입 </button>
+            <button>  </button>
         </div>
       </div>
 
@@ -50,7 +49,7 @@ export default function Navbar() {
               exit="closed"
               variants={sidebarVariants}
               transition={{ duration: 0.4 }}
-              className="z-20 pt-12 pb-28 absolute top-full right-0 h-screen w-1/3 bg-gray-300 flex flex-col justify-between"
+              className="z-20 pt-12 pb-28 absolute top-full right-0 h-screen w-1/3 bg-white flex flex-col justify-between"
             >
               {/* Website Section Links */}
               <div className='flex flex-col space-y-6'>
@@ -62,8 +61,7 @@ export default function Navbar() {
               </div>
 
               <div className='flex flex-col space-y-6'>
-                  <button> 장바구니 </button>
-                  <button> 로그인/회원가입 </button>
+                  <button> </button>
               </div>
             </motion.div>
           )}
