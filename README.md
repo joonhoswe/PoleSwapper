@@ -1,1 +1,1 @@
-This is a [Next.js](https://nextjs.org/) project for a English tutor with 70k followers on Instagram in South Korea. It will have various pages showcasing the tutor and reviews, user authentication with Auth0 integrated with various South Korean SNS logins, and a paywall for buying digital lesson integrated with various South Korean payment methods.
+This is a [Next.js](https://nextjs.org/) template to accelerate any future project developments.
