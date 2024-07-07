@@ -56,14 +56,13 @@ export default function Home() {
 
       </div>
 
-      <div className='bg-gray-200 w-full items-center md:items-stretch flex flex-col md:flex-row space-y-12 md:space-y-0 md:space-x-6 lg:space-x-12 justify-center px-4 py-10'>
-        {/* {infoCards.map((card, index) => (
-          <div key={index} className={`bg-white text-black h-auto w-64 md:w-80 rounded-2xl flex flex-col items-start space-y-4 p-4 md:p-6 shadow-2xl animate-flip-down animate-duration-1200 animate-delay-${card.delay}`}>
-            <h1 className='text-sm md:text-xl lg:text-2xl'> {card.heading} </h1>
-            <p className='text-sm md:text-sm lg:text-base font-normal'> {card.description} </p>
-          </div>
-        ))} */}
+      <div className='bg-gray-200 min-h-[40vh] h-auto w-full flex items-center justify-center p-10 text-black'>
+          <div className='bg-white rounded-md h-full w-full flex flex-col space-y-4 items-center justify-center'>
+              <h1 className='text-black font-bold'> How it Works </h1>
+              <p> Filter by brand, length, and weight, then search for all available poles. </p>
+           </div>
       </div>
+      
     </div>
   );
 }
