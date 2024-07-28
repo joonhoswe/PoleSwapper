@@ -24,7 +24,7 @@ export default function Navbar() {
 
   return (
     <div className="flex items-center justify-between w-full h-14 sticky top-0 z-50 text-black bg-white bg-opacity-60 backdrop-filter backdrop-blur-lg">
-      <div className='items-center justify-between w-full h-14 px-4 hidden md:flex'>
+      <div className='items-center justify-between w-full h-14 px-32 hidden md:flex'>
         
         <div className="flex items-center justify-center space-x-6">
         <p> Logo </p>
