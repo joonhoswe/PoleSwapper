@@ -4,7 +4,7 @@ import Image from "next/image";
 // import LinkedIn from '@assets/linkedin.webp';
 // import GitHub from '@assets/github.png';
 
-export default function Footer() {
+const Footer: React.FC = () => {
     return (
         <div className="bg-red-500 text-white flex flex-col items-center justify-between w-full h-40 md:h-32 py-4 md:py-2">
             
@@ -41,3 +41,5 @@ export default function Footer() {
         </div>
     );
 }
+
+export default Footer;
